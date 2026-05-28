@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated data splits (regenerate with build_splits.py)
+splits/
+
+# Training outputs (large checkpoints, logs, reports)
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Misc
+*.log

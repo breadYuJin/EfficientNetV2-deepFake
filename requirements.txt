@@ -1,0 +1,8 @@
+# Install PyTorch separately matching your CUDA version, e.g.:
+#   pip install torch==2.4.* torchvision==0.19.* --index-url https://download.pytorch.org/whl/cu121
+# Then install the rest:
+timm>=0.9
+numpy
+pillow
+scikit-learn
+matplotlib
